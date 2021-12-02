@@ -1,0 +1,4 @@
+test: ../new_data/final_test/images
+
+nc: 11
+names: ['Nike', 'Adidas', 'Puma', 'Starbucks', 'The North Face', 'Under Armour', 'Apple Inc-', 'Mercedes-Benz', 'NFL', 'Coca-Cola', 'Hard Rock Cafe']
