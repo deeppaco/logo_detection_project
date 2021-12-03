@@ -56,9 +56,9 @@ Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze
 
 ### Faster R-CNN
 
-All the required files for FasterRCNN can be found in the two_stage_detector folders. The model and analysis consists of two self-contained colab files that can be run simply by changing the base directory name in the file. Further instructions can be found inside the respective files. 
+All the required files for FasterRCNN can be found in the two_stage_detector folders. The model and analysis consists of two self-contained colab files that can be run simply by changing the base directory name in the file. Additionally, all the pre-model analysis are done utilising the COCO format and hence presented in the same file as the model. Further instructions can be found inside the respective files. 
 
-For training the model and obtaining the evaluations, the FasterRCNN_logo_detection.ipynb should be run. 
+For preprocessing analysis, training the model and obtaining the evaluations, the FasterRCNN_logo_detection.ipynb should be run. 
 
 The above jupyter notebook will generate a csv file utilised for FasterRCNN_post_analysis.ipynb. The csv, called predictions_test_resnet_new.csv can be found in the data folder and will be automaticall loaded at the beginning. This notebook contains a detailled analysis on the results. 
 
