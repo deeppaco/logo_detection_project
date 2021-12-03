@@ -47,8 +47,10 @@ The resulting predictions will be saved in the folder yolov5/runs/detect/.
 Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze the results (path names have to be changed!).
 
 **Additional Information**
-The folders yolov5/final_test, and yolov5/additional_test contain the two test datasets we used (for more information please see the report).
-The folder yolov5/runs contains the weights of the best model we used in exp45 as well as the subfolder detect where we detected the logos on the two test datasets. In yolov5/data/hyps the data.yaml file defines the hyperparameters we used to run the model.
+
+- The folders yolov5/final_test, and yolov5/additional_test contain the two test datasets we used (for more information please see the report).
+- The folder yolov5/runs contains the weights of the best model we used in exp45 as well as the subfolder detect where the results of the detection on our two test datasets of the best model can be found. 
+- In yolov5/data/hyps the data.yaml file defines the hyperparameters we used to train the model.
 
 ### Faster R-CNN
 
