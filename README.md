@@ -18,4 +18,27 @@ The project is to build a neural network that performs logo detection (as in obj
 
 ## Quick Start
 
-To 
+### Set-Up
+Clone the repository to your local or virtual machine. In order to run the algorithms an environment with the following settings is necessary: Python>=3.6.0 is required with all requirements.txt installed as well as PyTorch>=1.7:
+
+`
+$ git clone git@github.com:deeppaco/logo_detection_project.git
+`
+
+### YOLOv5
+To predict with the YOLOv5 algorithm on our test datasets navigate into the yolov5 folder and run the following code:
+
+`
+python detect.py --source final_test/images --weights runs/exp45/weights/best.pt --img 640 --save-txt --conf-thres 0.01  --iou-thres 0.2 --save-conf
+`
+
+To predict on the additional test dataset we created run the following command:
+
+`
+python detect.py --source additional_test/images --weights runs/exp45/weights/best.pt --img 640 --save-txt --conf-thres 0.01  --iou-thres 0.2 --save-conf
+`
+
+The resulting predictions will be saved in the folder yolov5/runs/detect/.
+
+### Faster R-CNN
+
