@@ -15,6 +15,7 @@ Team members:
 
 The project is to build a neural network that performs logo detection (as in object detection task) based on a large dataset of images (and noise) of 17 popular brand logos. A subset of these logos and images has been chosen and two different models, Faster R-CNN and YOLOv5, have been used to predict on a test dataset.
 
+A detailed report highlighting the complete analysis of the models presented is provided and called Report.pdf. For optimal understanding of the different analyses taken and some further insights on why they have been taken, it is strongly advised to read through the report. 
 
 ## Quick Start
 
@@ -43,5 +44,9 @@ Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze
 
 ### Faster R-CNN
 
+All the required files for FasterRCNN can be found in the two_stage_detector folders. The model and analysis consists of two self-contained colab files that can be run simply by changing the base directory name in the file. Further instructions can be found inside the respective files. 
 
+For training the model and obtaining the evaluations, the FasterRCNN_logo_detection.ipynb should be run. 
+
+The above jupyter notebook will generate a csv file utilised for FasterRCNN_post_analysis.ipynb. The csv, called predictions_test_resnet_new.csv can be found in the data folder and will be automaticall loaded at the beginning. This notebook contains a detailled analysis on the results. 
 
