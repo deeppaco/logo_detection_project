@@ -13,7 +13,7 @@ Team members:
 
 ## Project Description
 
-The project is to build a neural network that performs logo detection (as in object detection task) based on a large dataset of images (and noise) of 17 popular brand logos. A subset of these logos and images has been chosen and two different models, Faster R-CNN and YOLOv5 has been used to predict on a test dataset.
+The project is to build a neural network that performs logo detection (as in object detection task) based on a large dataset of images (and noise) of 17 popular brand logos. A subset of these logos and images has been chosen and two different models, Faster R-CNN and YOLOv5, have been used to predict on a test dataset.
 
 
 ## Quick Start
