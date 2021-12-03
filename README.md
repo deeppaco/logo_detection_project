@@ -23,7 +23,8 @@ A detailed report highlighting the complete analysis of the models presented is 
 ## Quick Start
 
 ### Set-Up
-Clone the repository to your local or virtual machine. In order to run the algorithms an environment with the following settings is necessary: Python>=3.6.0 is required with all requirements.txt installed as well as PyTorch>=1.7. In order to clone some of the larger files git lfs should be installed. For more information see here: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage.
+Clone the repository to your local or virtual machine. In order to run the algorithms an environment with the following settings is necessary: Python>=3.6.0 is required with all requirements.txt installed as well as PyTorch>=1.8 (for linux vm use `conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+`). In order to clone some of the larger files git lfs should be installed. For more information see here: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage.
 
 `
 $ git clone git@github.com:deeppaco/logo_detection_project.git
