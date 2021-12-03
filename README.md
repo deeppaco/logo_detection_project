@@ -44,7 +44,7 @@ python detect.py --source additional_test/images --weights runs/exp45/weights/be
 `
 
 The resulting predictions will be saved in the folder yolov5/runs/detect/.
-Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze the results.
+Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze the results (path names have to be changed!).
 
 ### Faster R-CNN
 
