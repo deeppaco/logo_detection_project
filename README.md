@@ -19,7 +19,7 @@ The project is to build a neural network that performs logo detection (as in obj
 ## Quick Start
 
 ### Set-Up
-Clone the repository to your local or virtual machine. In order to run the algorithms an environment with the following settings is necessary: Python>=3.6.0 is required with all requirements.txt installed as well as PyTorch>=1.7:
+Clone the repository to your local or virtual machine. In order to run the algorithms an environment with the following settings is necessary: Python>=3.6.0 is required with all requirements.txt installed as well as PyTorch>=1.7. In order to clone some of the larger files git lfs should be installed. For more information see here: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage.
 
 `
 $ git clone git@github.com:deeppaco/logo_detection_project.git
@@ -42,4 +42,6 @@ The resulting predictions will be saved in the folder yolov5/runs/detect/.
 Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze the results.
 
 ### Faster R-CNN
+
+
 
