@@ -46,6 +46,10 @@ python detect.py --source additional_test/images --weights runs/exp45/weights/be
 The resulting predictions will be saved in the folder yolov5/runs/detect/.
 Use the file Post_training_analysis_yolov5.ipynb in the yolov5 folder to analyze the results (path names have to be changed!).
 
+**Additional Information**
+The folders yolov5/final_test, and yolov5/additional_test contain the two test datasets we used (for more information please see the report).
+The folder yolov5/runs contains the weights of the best model we used in exp45 as well as the subfolder detect where we detected the logos on the two test datasets. In yolov5/data/hyps the data.yaml file defines the hyperparameters we used to run the model.
+
 ### Faster R-CNN
 
 All the required files for FasterRCNN can be found in the two_stage_detector folders. The model and analysis consists of two self-contained colab files that can be run simply by changing the base directory name in the file. Further instructions can be found inside the respective files. 
