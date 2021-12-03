@@ -10,7 +10,7 @@ Team members:
 - Riccardo Tordini
 - Steffen Brockmann
 
-Project report and slide deck are available directly in the repository. 
+Project report and slide deck are available directly on the repository. 
 
 Project video is available at:
 https://drive.google.com/file/d/1tiUlOwZU7c_7AnjEQ8YEJnPG16UAc9lA/view?usp=sharing
