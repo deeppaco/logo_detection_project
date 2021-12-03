@@ -10,6 +10,9 @@ Team members:
 - Riccardo Tordini
 - Steffen Brockmann
 
+Project video is available at:
+https://drive.google.com/file/d/1tiUlOwZU7c_7AnjEQ8YEJnPG16UAc9lA/view?usp=sharing
+
 
 ## Project Description
 
