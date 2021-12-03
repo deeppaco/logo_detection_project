@@ -1,6 +1,6 @@
 # Logo Detection Project
 
-This repository contains the final group project of the team PACO for the course 20600 DEEP LEARNING FOR COMPUTER VISION tought by Gaia Rubera and Francesco Grossetti at Bocconi University.
+This repository contains the final group project of the team PACO for the course 20600 DEEP LEARNING FOR COMPUTER VISION taught by Gaia Rubera and Francesco Grossetti at Bocconi University.
 
 Team members:
 - Alessandro Caruso
@@ -9,6 +9,8 @@ Team members:
 - Louis Lacombe
 - Riccardo Tordini
 - Steffen Brockmann
+
+Project report and slide deck are available directly in the repository. 
 
 Project video is available at:
 https://drive.google.com/file/d/1tiUlOwZU7c_7AnjEQ8YEJnPG16UAc9lA/view?usp=sharing
