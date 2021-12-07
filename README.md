@@ -60,5 +60,4 @@ All the required files for FasterRCNN can be found in the two_stage_detector fol
 
 For preprocessing analysis, training the model and obtaining the evaluations, the FasterRCNN_logo_detection.ipynb should be run. 
 
-The above jupyter notebook will generate a csv file utilised for FasterRCNN_post_analysis.ipynb. The csv, called predictions_test_resnet_new.csv can be found in the data folder and will be automaticall loaded at the beginning. This notebook contains a detailled analysis on the results. 
-
+The above jupyter notebook will generate a csv file utilised for FasterRCNN_post_analysis.ipynb. The csv, called predictions_test_resnet_new.csv can be found in the data folder and will be automaticall loaded at the beginning. This notebook contains a detailled analysis on the results.
